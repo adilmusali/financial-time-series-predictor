@@ -33,13 +33,13 @@ venv.bak/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-# Data files (keep directory structure but ignore actual data files)
+# Data files
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
 
-# Model files (saved models can be large)
+# Model files
 models/*.pkl
 models/*.h5
 models/*.joblib
@@ -49,9 +49,9 @@ models/*.onnx
 *.h5
 *.joblib
 
-# Plots (optional - uncomment if you don't want to track generated plots)
-# plots/*
-# !plots/.gitkeep
+# Plots
+plots/*
+!plots/.gitkeep
 
 # IDE
 .vscode/
