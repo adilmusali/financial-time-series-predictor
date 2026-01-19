@@ -14,6 +14,11 @@ END_DATE = None  # None means use current date
 # Options: '1d', '1wk', '1mo'
 DATA_INTERVAL = '1d'
 
+# Default data source
+# Options: 'yfinance', 'csv'
+# When using 'csv', you must provide filepath parameter
+DEFAULT_DATA_SOURCE = 'yfinance'
+
 # ============================================================================
 # Data Processing
 # ============================================================================
@@ -46,7 +51,6 @@ MOVING_AVERAGE_WINDOW = 30
 # Auto-ARIMA settings
 USE_AUTO_ARIMA = True
 
-# Manual ARIMA parameters (used if USE_AUTO_ARIMA is False)
 # (p, d, q) - Autoregressive, Differencing, Moving Average
 ARIMA_ORDER = (5, 1, 0)
 
