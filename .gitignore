@@ -109,3 +109,5 @@ dmypy.json
 .prof
 
 notebooks/data/
+
+.cursorrules
