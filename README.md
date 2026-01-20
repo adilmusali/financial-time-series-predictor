@@ -271,7 +271,3 @@ Results saved to:
 - Does not account for news, earnings, or market events
 - Short-term predictions (1-4 weeks) are more reliable
 - Past performance does not guarantee future results
-
-## License
-
-MIT License
